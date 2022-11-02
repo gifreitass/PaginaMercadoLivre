@@ -1,0 +1,84 @@
+/* CSS Reset */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+ol, ul {
+    list-style: none;
+  }
+  
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* Decorando o cabeçalho da página */
+
+.headerSection{
+    height: 18vh;
+    background-color: rgb(255, 255, 52);
+    text-align: center;
+}
+
+.searchBar, .navBar{
+    height: 9vh;
+}
+
+#searchBar{
+    margin-top: 2.5vh;
+    width: 15vw;
+}
+
+.navBar{
+    border: solid black;
+    line-height: 7vh;
+}
+
+.navOptions{
+    margin-left: 5vh;
+    vertical-align: middle;
+    font-size: 17px;
+}
+
+/* Decorando o conteúdo (barra de benefícios) */
+
+.content{
+    background-color: rgb(221, 221, 221);
+    height: 82vh;
+    text-align: center;
+}
+
+.benefits{
+    width: 80vw;
+    height: 20vh;
+    background-color: white;
+    margin-top: 10vh;
+    display: inline-block;
+    border-radius: 1vw;
+}
+
+.firstOffer, .offer{
+    width: 18vw;
+    height: 20vh;
+    text-align: left;
+    float: left;
+    margin-left: 2vh;
+    padding-top: 6vh;
+}
+
+.firstOffer{
+    border-right: 2px solid black;
+}
+
