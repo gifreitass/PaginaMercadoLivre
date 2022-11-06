@@ -50,6 +50,15 @@ img {
     margin-left: 5vh;
     vertical-align: middle;
     font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+.navOptions:hover{
+    transition-duration: 0.5s;
+    padding: 1vh;
+    background-color: rgba(106, 73, 73, 0.421);
+    border-radius: 0.5vw;
 }
 
 /* Decorando o conteúdo (barra de benefícios) */
@@ -64,7 +73,7 @@ img {
     width: 80vw;
     height: 20vh;
     background-color: white;
-    margin-top: 10vh;
+    margin-top: 5vh;
     display: inline-block;
     border-radius: 1vw;
 }
@@ -80,5 +89,46 @@ img {
 
 .firstOffer{
     border-right: 2px solid black;
+}
+
+/* Decorando a página de cadastro */
+
+input, select{
+    margin-top: 2vh;
+    border-radius: 0.3vw;
+}
+
+/* Decorando o conteúdo (produtos) */
+
+img{
+    width: 12vw;
+    height: 35vh;
+}
+
+.products{
+    width: 80vw;
+    height: 20vh;
+    display: inline-block;
+}
+
+.product{
+    width: 18vw;
+    height: 35vh;
+    float: left;
+    margin-top: 5vh;
+    background-color: white;
+    margin-left: 2vh;
+    border-radius: 1vw;
+    overflow: hidden;
+}
+
+.product:hover{
+    transition-duration: 0.7s;
+    cursor: pointer;
+    height: 45vh;
+}
+
+h5{
+    border-top: 2px solid black;
 }
 
