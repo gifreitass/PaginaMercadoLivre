@@ -83,3 +83,7 @@ img {
     border-right: 2px solid black;
 }
 
+input, select{
+    margin-top: 2vh;
+}
+
